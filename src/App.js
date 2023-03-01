@@ -33,7 +33,7 @@ const App = () => {
     }
   ]
 
-  SpeechRecognition.startListening({ continuous: true, language:'en-IN' })
+  SpeechRecognition.startListening({ continuous: true, language:'en-US' })
   const { transcript, browserSupportsSpeechRecognition } = useSpeechRecognition({ commands })
 
   
